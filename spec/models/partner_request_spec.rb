@@ -12,9 +12,11 @@ RSpec.describe PartnerRequest, type: :model do
     end
   end
 
-  describe "a valid PartnerRequest" do
+  describe "a valid 990" do
     it "requires proof of form 990" do
-      expect(build_stubbed(:partner_request).partner.proof_of_form_990.attached?).to eq true
+      partner_stubbed = build(:partner, :with_990_attached)
+      expect(build_stubbed(:partner_request, partner: partner_stubbed).partner.export_json.dig(:stability, :form_990_link)).to include("f990.pdf")
+     # expect(build_stubbed(:partner_request).partner.proof_of_form_990.attached?).to eq true
     end
   end
 
