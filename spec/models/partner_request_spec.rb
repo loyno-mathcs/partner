@@ -12,6 +12,13 @@ RSpec.describe PartnerRequest, type: :model do
     end
   end
 
+  describe "a valid PartnerRequest" do
+    it "requires proof of form 990" do
+      expect(build_stubbed(:partner_request).partner.proof_of_form_990.attached?).to eq true
+    end
+  end
+
+
   describe "#formatted_items_hash" do
     let(:partner_request) { create(:partner_request_with_items, items_count: 1) }
     it "builds the item hash values for export json" do
