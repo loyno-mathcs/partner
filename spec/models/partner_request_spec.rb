@@ -12,14 +12,30 @@ RSpec.describe PartnerRequest, type: :model do
     end
   end
 
-  describe "a valid 990" do
-    it "requires proof of form 990" do
+  describe "a partner with a form 990" do
+    it "returns proof of form 990" do
       partner_stubbed = build(:partner, :with_990_attached)
       expect(build_stubbed(:partner_request, partner: partner_stubbed).partner.export_json.dig(:stability, :form_990_link)).to include("f990.pdf")
-     # expect(build_stubbed(:partner_request).partner.proof_of_form_990.attached?).to eq true
     end
   end
 
+  describe "a partner must contain" do
+    it "proof_of_agency_status" do
+      partner_stubbed = build(:partner, :with_status_proof)
+      expect(build_stubbed(:partner_request, partner: partner_stubbed).partner.export_json[:proof_of_agency_status]).to include("status_proof.pdf")
+    end
+  end
+
+
+  describe "a partner must contain" do
+    it "one or more additional documents" do
+      partner_stubbed = build(:partner, :with_other_documents)
+       expect(build_stubbed(:partner_request, partner: partner_stubbed).partner.export_json[:documents]).to be_a Array
+       expect(build_stubbed(:partner_request, partner: partner_stubbed).partner.export_json[:documents]).not_to be_empty
+       expect(build_stubbed(:partner_request, partner: partner_stubbed).partner.export_json[:documents].first).to have_key(:document_link)
+    end
+
+  end
 
   describe "#formatted_items_hash" do
     let(:partner_request) { create(:partner_request_with_items, items_count: 1) }
