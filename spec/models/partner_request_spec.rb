@@ -29,9 +29,9 @@ RSpec.describe PartnerRequest, type: :model do
   describe "a partner must contain" do
     it "one or more additional documents" do
       partner_stubbed = build(:partner, :with_other_documents)
-        expect(build_stubbed(:partner_request, partner: partner_stubbed).partner.export_json[:documents]).to be_a Array
-        expect(build_stubbed(:partner_request, partner: partner_stubbed).partner.export_json[:documents]).not_to be_empty
-        expect(build_stubbed(:partner_request, partner: partner_stubbed).partner.export_json[:documents].first).to have_key(:document_link)
+      expect(build_stubbed(:partner_request, partner: partner_stubbed).partner.export_json[:documents]).to be_a Array
+      expect(build_stubbed(:partner_request, partner: partner_stubbed).partner.export_json[:documents]).not_to be_empty
+      expect(build_stubbed(:partner_request, partner: partner_stubbed).partner.export_json[:documents].first).to have_key(:document_link)
     end
   end
 
