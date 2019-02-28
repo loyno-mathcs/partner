@@ -1,7 +1,9 @@
 Rails.application.routes.draw do
   devise_for :partners, controllers: { sessions: "partners/sessions" }
-  devise_scope :partner do
-    get "/partners/sign_out" => "devise/sessions#destroy"
+  devise_scope :partner do # , :skip => [:registrations] # do we need this?
+    get "/partners/:id/sign_out" => "devise/sessions#destroy"
+    get "/partners/:id/edit" => "devise/registrations#edit", :as => "edit_partner_registration"
+    put "/partners/:id" => "devise/registrations#update", :as => "partner_registration"
   end
 
   resources :partners do
@@ -20,3 +22,4 @@ Rails.application.routes.draw do
   get "pages/:name", to: "static#page"
   root "static#index"
 end
+
