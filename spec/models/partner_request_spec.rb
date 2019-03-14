@@ -25,18 +25,24 @@ RSpec.describe PartnerRequest, type: :model do
   describe "a request without an item quantity" do
     let(:partner_request) { build(:partner_request) }
     let(:item) { build(:item, name: "test", quantity: nil, partner_request: partner_request) }
-	let(:partner_request_with_items) { create(:partner_request_with_items, items_count: 1) }
-	it "fails when adding a new item" do
+	  let(:partner_request_with_items) {
+	    create(:partner_request_with_items,
+	    items_count: 1,
+	    items: [
+	        build(:item, name: "k_newborn", quantity: 1, partner_request: nil)
+	      ])
+	  }
+	  it "fails when adding a new item" do
       partner_request.items << item
       expect(partner_request.save).to be false
       expect(partner_request.errors.messages[:"items.quantity"]).to include("can't be blank")
     end
     it "fails when modifying attributes on an item" do
-	    partner_request_with_items.items.first.quantity = nil # not nil when test run
+      partner_request_with_items.items.first.quantity = nil # not nil when test run
 	    expect(partner_request_with_items.items.first.quantity).to be nil
-      expect(partner_request_with_items.items.save).to be true
-      partner_request_with_items.items.first.name = "abc123xyz"
-      expect(partner_request_with_items.items.save).to be false #this is true bc value not being set to nil
+      # expect(partner_request_with_items.save).to be true # always fails because of validation
+      partner_request_with_items.items.first.name = "k_preemie"
+      expect(partner_request_with_items.save).to be false #this is true bc value not being set to nil
       expect(partner_request_with_items.errors.messages[:"items.quantity"]).to include("can't be blank")
     end
   end
