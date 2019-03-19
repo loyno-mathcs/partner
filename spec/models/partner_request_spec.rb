@@ -17,7 +17,7 @@ RSpec.describe PartnerRequest, type: :model do
       partner_stubbed = build(:partner, :with_990_attached)
       partner_no_990_stubbed = build(:partner)
       expect(build_stubbed(:partner_request, partner: partner_stubbed).partner.export_json.dig(:stability, :form_990_link)).to include("f990.pdf")
-      expect(build_stubbed(:partner_request, partner: partner_no_990_stubbed).partner.export_json.dig(:stability, :form_990_link)).to eq("")
+      expect(build_stubbed(:partner_request, partner: partner_no_990_stubbed).partner.save).to eq(false)
     end
 
     it "proof_of_agency_status" do
