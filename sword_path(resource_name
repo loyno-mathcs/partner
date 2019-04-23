@@ -1,0 +1,1160 @@
+[33mcommit a9aca21536a028f8d43a3895f9445ee5422537ce[m[33m ([m[1;36mHEAD -> [m[1;32m2_update_and_change_password[m[33m, [m[1;31morigin/2_update_and_change_password[m[33m)[m
+Author: jessicakcao <jkcao@my.loyno.edu>
+Date:   Thu Feb 28 18:55:04 2019 +0000
+
+    WIP password change: routes and view. Not working yet.
+
+[33mcommit 398929f587b8701a8575316e089cd7d1245ee6b0[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmaster[m[33m)[m
+Merge: f79509b 86209bd
+Author: Sean Marcia <smarcia@gmail.com>
+Date:   Sun Jan 27 13:16:22 2019 -0500
+
+    Merge pull request #74 from IlinDmitry/possible_url_injection
+    
+    Check the `:page` action for possible URL injection
+
+[33mcommit f79509b01435e52a2e40df21d72310551b642d86[m
+Merge: 42decd3 dd7e6a1
+Author: Sean Marcia <smarcia@gmail.com>
+Date:   Sun Jan 27 13:04:50 2019 -0500
+
+    Merge pull request #76 from nihonjinrxs/master
+    
+    Allow specifying database hostname via PG_HOST env var
+
+[33mcommit dd7e6a1a4a8d1446dafa7132949b2dc183394f91[m
+Author: Ryan B. Harvey <ryan.b.harvey@gmail.com>
+Date:   Sat Jan 26 23:14:14 2019 -0600
+
+    Document change to database config in README
+
+[33mcommit 4108399ac1e87250aa8fba818049003da8882bbe[m
+Author: Ryan B. Harvey <ryan.b.harvey@gmail.com>
+Date:   Sat Jan 26 23:10:27 2019 -0600
+
+    Allow specifying database hostname via PG_HOST env var
+
+[33mcommit 86209bd3b0745e88c8bcdeedaeb14a0c00034cb7[m
+Author: IlinDmitry <339966289@mail.ru>
+Date:   Fri Jan 25 11:54:24 2019 +0300
+
+    Check the `:page` action for possible URL injection
+
+[33mcommit 42decd3496ccd58aaebf9f7f82a7222514fc74b6[m
+Author: Sean Marcia <smarcia@gmail.com>
+Date:   Wed Jan 23 18:29:45 2019 -0500
+
+    Gemfile update
+
+[33mcommit 9bc258ced05bc87493d0b0563eb2d60ad425067f[m
+Merge: b01d104 f1d3564
+Author: Sean Marcia <smarcia@gmail.com>
+Date:   Sat Dec 22 11:41:52 2018 -0500
+
+    Merge branch 'master' of github.com:rubyforgood/partner
+
+[33mcommit b01d104654d56c4908a86723ff53f70a368bd670[m
+Author: Sean Marcia <smarcia@gmail.com>
+Date:   Sat Dec 22 11:41:47 2018 -0500
+
+    Update the invitation email to make it more agnostic.
+
+[33mcommit f1d35640e9b5cb8b895ba21cf66d404c676d2227[m
+Merge: 2e85604 3434bf9
+Author: Sean Marcia <smarcia@gmail.com>
+Date:   Sat Dec 22 10:47:23 2018 -0500
+
+    Merge pull request #69 from fv42wid/master
+    
+    WIP Add partners controller specs #51
+
+[33mcommit 3434bf9036c19e1d9d6c3473ab0eb2ee5b5c0eb4[m
+Author: Frank Vinci <fv42wid@yahoo.com>
+Date:   Fri Dec 21 14:40:59 2018 -0500
+
+    fix rubocop violations
+
+[33mcommit fe11379f360c89aafac958fe36084f2b71835900[m
+Author: Frank Vinci <fv42wid@yahoo.com>
+Date:   Thu Dec 20 14:39:55 2018 -0500
+
+    finish partners controller html request specs
+
+[33mcommit ea15b49311b97f50ee7880f8355d0f36faa08179[m
+Merge: d8ab147 2e85604
+Author: Frank Vinci <fv42wid@yahoo.com>
+Date:   Thu Dec 20 12:33:53 2018 -0500
+
+    add partners_controller specs
+
+[33mcommit 2e8560427ab3cc597fd23eb26c1f3deef6783109[m
+Merge: 87d370b 15af1da
+Author: Sean Marcia <smarcia@gmail.com>
+Date:   Tue Dec 18 16:40:34 2018 -0500
+
+    Merge pull request #68 from rubyforgood/new_theme
+    
+    New theme
+
+[33mcommit 15af1da3a493e9b3b6a2375ac6f70396b96590bb[m
+Author: Sean Marcia <smarcia@gmail.com>
+Date:   Mon Dec 17 22:13:06 2018 -0500
+
+    Last bit of clean up.
+
+[33mcommit 357c9e40f522d14784e85f711ac2142d08847fa1[m
+Author: Sean Marcia <smarcia@gmail.com>
+Date:   Mon Dec 17 18:59:37 2018 -0500
+
+    Test and rubocop fix
+
+[33mcommit 6cdc9006f76b70c29b6d5ec3b32304e48aa76d81[m
+Author: Sean Marcia <smarcia@gmail.com>
+Date:   Mon Dec 17 18:05:22 2018 -0500
+
+    Fix some styling
+
+[33mcommit 6a31e2b73d7fdaafbc8da2098efc082d727f957d[m
+Author: Sean Marcia <smarcia@gmail.com>
+Date:   Mon Dec 17 18:05:05 2018 -0500
+
+    UPdate the form to use new theme
+
+[33mcommit 8d7b53bc41c94536cbb5f002c671eb10c2c823cb[m
+Author: Sean Marcia <smarcia@gmail.com>
+Date:   Sun Dec 16 23:10:47 2018 -0500
+
+    Make the partner request more usable in dev/staging
+
+[33mcommit 87d370b429ad196d11dc8141fc3d5bec645bc5e9[m
+Author: Sean Marcia <smarcia@gmail.com>
+Date:   Sat Dec 15 16:04:35 2018 -0500
+
+    Adding in menstrual categories as requested by our users. Also did a little bit of cleanup on the password reset page.
+
+[33mcommit e59c055d800ac76dd993ef71f848eb199b47ecab[m
+Author: Sean Marcia <smarcia@gmail.com>
+Date:   Sun Dec 16 22:50:10 2018 -0500
+
+    Add the edit partner link to the sidebar.
+
+[33mcommit 81ee6fe27aed82302dc5354d55f34739d0f7e887[m
+Author: Sean Marcia <smarcia@gmail.com>
+Date:   Sun Dec 16 22:25:39 2018 -0500
+
+    Rubocop fixes and adding in alerts.
+
+[33mcommit 36d0d64f9d9aef5aed6f15cf34f82ffca49a4f92[m
+Author: Sean Marcia <smarcia@gmail.com>
+Date:   Sun Dec 16 16:50:56 2018 -0500
+
+    Finish up devise login/logout stuff
+
+[33mcommit 48cfe59e337081dc2028eb4565e25ef32d6cbd6b[m
+Author: Sean Marcia <smarcia@gmail.com>
+Date:   Sun Dec 16 16:42:44 2018 -0500
+
+    Update login page and forgot password page.
+
+[33mcommit edee48585a145a01ae22d6e4a72bf61587c496ca[m
+Author: Sean Marcia <smarcia@gmail.com>
+Date:   Sun Dec 16 16:29:56 2018 -0500
+
+    WIP
+
+[33mcommit 16f9bc6b024c2398921dccdecb5ca5b2a79e7bbe[m
+Merge: fa6afbc 637b832
+Author: Sean Marcia <smarcia@gmail.com>
+Date:   Sun Dec 16 14:53:59 2018 -0500
+
+    WIP
+
+[33mcommit fa6afbc1a2dc70685d0cc276719017abdb400140[m
+Author: Sean Marcia <smarcia@gmail.com>
+Date:   Sun Dec 16 14:50:39 2018 -0500
+
+    WIP
+
+[33mcommit 637b8323ff01e5d32fa36dee7bd62f35a26a0d60[m
+Author: Frank Vinci <fv42wid@yahoo.com>
+Date:   Thu Dec 13 15:16:31 2018 -0500
+
+    add partner_requests_controller specs #51
+
+[33mcommit d8ab1473ffa2ac63aed08af903816070b3b13206[m
+Author: Frank Vinci <fv42wid@yahoo.com>
+Date:   Thu Dec 13 15:16:31 2018 -0500
+
+    add partner_requests_controller specs #51
+
+[33mcommit b699f090333d21d37b0abdc9596ce2a951395d72[m
+Merge: f48fa9c ea7eda6
+Author: Frank <fv42wid@yahoo.com>
+Date:   Wed Dec 12 12:37:26 2018 -0500
+
+    Merge pull request #1 from rubyforgood/master
+    
+    sync fork
+
+[33mcommit ea7eda6b23c5107b5fe9fd939ae6dbb7db0ddcea[m
+Author: Chase Southard <chase.southard@gmail.com>
+Date:   Mon Dec 10 23:12:44 2018 -0500
+
+    just some cleanup
+
+[33mcommit 632f6cfadf653e450424f1dbdc74362d2ce0b570[m
+Author: Sean Marcia <smarcia@gmail.com>
+Date:   Wed Dec 5 22:21:28 2018 -0500
+
+    Parse the result
+
+[33mcommit 7cb5e2409387c23662fc18ed48534c21993f8c7d[m
+Author: Sean Marcia <smarcia@gmail.com>
+Date:   Wed Dec 5 22:01:36 2018 -0500
+
+    WIP
+
+[33mcommit 169b6b226d1a3f69e902eac0e82edc9422d4d87a[m
+Author: Frank Vinci <fv42wid@yahoo.com>
+Date:   Sun Dec 9 15:09:33 2018 -0500
+
+    style the login form issue #28
+
+[33mcommit f48fa9c70dc75139c60c1ad6229b48c769eb02f7[m
+Author: Frank Vinci <fv42wid@yahoo.com>
+Date:   Sun Dec 9 15:09:33 2018 -0500
+
+    style the login form issue #28
+
+[33mcommit 35284ffc6f2e4e9a044a35936d9fa95998c0ee93[m
+Author: Sean Marcia <smarcia@gmail.com>
+Date:   Wed Dec 5 21:31:38 2018 -0500
+
+    Update .travis.yml
+
+[33mcommit aafc5217b1e9258db94dc223e0d71dd44db96792[m
+Author: David Curtis <dacur7@gmail.com>
+Date:   Sun Dec 2 16:05:05 2018 -0500
+
+    Lint.
+
+[33mcommit 133726947158eaa559551d684ae7a4cc9ff87dfd[m
+Author: David Curtis <dacur7@gmail.com>
+Date:   Sun Dec 2 15:55:43 2018 -0500
+
+    Adds and updates partners and partner requests controller specs.
+
+[33mcommit 2c36f56edc0d454ca45f94598f4ae546dceea16b[m
+Author: David Curtis <dacur7@gmail.com>
+Date:   Sun Dec 2 15:54:23 2018 -0500
+
+    Makes @partner available in specs.
+
+[33mcommit 5c38af64fbe7b5546e775a8227bf6bb43ab03537[m
+Author: David Curtis <dacur7@gmail.com>
+Date:   Sun Dec 2 15:53:49 2018 -0500
+
+    Sets up user not logged in shared example.
+
+[33mcommit dd6d67ac165c5b62e09bb9358f343497809a0917[m
+Author: David Curtis <dacur7@gmail.com>
+Date:   Sun Dec 2 13:33:20 2018 -0500
+
+    Adds partner and partner request specs; updates partner request model.
+
+[33mcommit 0b6b85dea571aef3d290ea1c3b36a2a7e6361bfe[m
+Author: David Curtis <dacur7@gmail.com>
+Date:   Sun Dec 2 12:35:43 2018 -0500
+
+    Adds shoulda matchers for specs.
+
+[33mcommit 755bf5c179862b7b51416f2d9b676cc67a0df14f[m
+Author: David Curtis <dacur7@gmail.com>
+Date:   Mon Nov 26 14:39:30 2018 -0500
+
+    Adds partner request spec for missing item quantity.
+
+[33mcommit 46fe52fd366b9df610c5859798b8793970e51e7c[m
+Author: David Curtis <dacur7@gmail.com>
+Date:   Mon Nov 26 11:43:55 2018 -0500
+
+    Replace spec_helper with rails_helper in .rspec file.
+
+[33mcommit c830045bf851fa04a7907f677ea855c01eac71ba[m
+Author: David Curtis <dacur7@gmail.com>
+Date:   Mon Nov 26 11:25:58 2018 -0500
+
+    Removes explicit calls to FactoryBot; remove unused spec.
+
+[33mcommit 4009927058ebcfb4d24fef9324281fa2859809ac[m
+Merge: a5de22c 80911c3
+Author: Sean Marcia <smarcia@gmail.com>
+Date:   Fri Nov 30 15:53:18 2018 -0500
+
+    Merge branch 'master' of github.com:rubyforgood/partner
+
+[33mcommit a5de22c6f4c74d35d560c40515190db6fb3e966f[m
+Author: Sean Marcia <smarcia@gmail.com>
+Date:   Fri Nov 30 15:51:55 2018 -0500
+
+    Add favicon
+
+[33mcommit 80911c33bd10f01f2c0d63accb72c3baf4154fa1[m
+Author: David Curtis <dacur7@gmail.com>
+Date:   Mon Nov 26 09:26:49 2018 -0500
+
+    Updates ruby version to 2.5.3 in README, rubocop, and prod deploy config.
+
+[33mcommit b5a6f10b34c7a226534810a6108d944e57ef4bb9[m
+Author: Chase Southard <chase.southard@gmail.com>
+Date:   Fri Nov 23 12:46:17 2018 -0500
+
+    clean up the rubocop violations from the past
+
+[33mcommit 6e2eee895f92dd53c0a8740c8090b5ed2268f7af[m
+Author: Chase Southard <chase.southard@gmail.com>
+Date:   Fri Nov 23 12:10:12 2018 -0500
+
+    adds file paths into export_json content
+    
+    for proof_of_partner_status, proof_of_form_990, and documents
+
+[33mcommit 49bab7e543ea3d0c6a4e88bde1d3f8adb60a3113[m
+Author: Sean Marcia <smarcia@gmail.com>
+Date:   Tue Nov 20 23:06:52 2018 -0500
+
+    Forgot to update travis ruby
+
+[33mcommit cff5f20c75b7bc104ccdb5f86baf602fe48ea4b5[m
+Author: Sean Marcia <smarcia@gmail.com>
+Date:   Tue Nov 20 22:44:53 2018 -0500
+
+    Deploy to staging
+
+[33mcommit f73b25883957edf24ec890666c277d97aa50ed85[m
+Author: Sean Marcia <smarcia@gmail.com>
+Date:   Tue Nov 20 22:32:06 2018 -0500
+
+    Gemfile
+
+[33mcommit a47d5c6cd6b5e61aa23dd12f982f5a3a13442252[m
+Author: Sean Marcia <smarcia@gmail.com>
+Date:   Tue Nov 20 22:04:33 2018 -0500
+
+    Ruby 2.5.3 update
+
+[33mcommit c8658a824a1252da3df405730db3e890ab68877d[m
+Merge: 396ffb2 f2e9a78
+Author: Sean Marcia <smarcia@gmail.com>
+Date:   Tue Nov 20 21:48:03 2018 -0500
+
+    Merge branch 'master' of github.com:rubyforgood/partner
+
+[33mcommit 396ffb26f00655882746c37e506c435dfc98d916[m
+Author: Sean Marcia <smarcia@gmail.com>
+Date:   Tue Nov 20 21:47:37 2018 -0500
+
+    Setting up staging server.
+
+[33mcommit f2e9a785ce78bc3b9fa4bb1e6e70cce16036da03[m
+Author: Francisco Saldaña <pako7797@icloud.com>
+Date:   Mon Nov 19 16:11:56 2018 -0600
+
+    add tests to partner controller
+
+[33mcommit 224635e4c62f4d3533d0210a8fcf7e8072226953[m
+Author: Chase Southard <chase.southard@gmail.com>
+Date:   Sat Nov 17 22:51:15 2018 -0500
+
+    adds nav to other views
+
+[33mcommit 0bda1225b8cd32ff3acc3c81175da731571d043b[m
+Author: Chase Southard <chase.southard@gmail.com>
+Date:   Sat Nov 17 22:50:46 2018 -0500
+
+    add authorization for partner_requests
+
+[33mcommit 8a80dae22661c2728871d0af922e0d1d99dba52f[m
+Author: Chase Southard <chase.southard@gmail.com>
+Date:   Sat Nov 17 22:14:13 2018 -0500
+
+    adds partner policy with CRUD actions
+
+[33mcommit 24d0508df8806a85c12d30af9e032ab38975bcbe[m
+Author: Chase Southard <chase.southard@gmail.com>
+Date:   Sat Nov 17 22:13:44 2018 -0500
+
+    adds the base pundit policy
+
+[33mcommit 5eae577993d07909bc63d5504f04fabba1e18aaf[m
+Author: Chase Southard <chase.southard@gmail.com>
+Date:   Sat Nov 17 22:12:35 2018 -0500
+
+    adds pundit authorization to partners_controller
+
+[33mcommit 81ebd329f22cb000925cb29a388ec10b269e8d17[m
+Author: Chase Southard <chase.southard@gmail.com>
+Date:   Sat Nov 17 22:11:27 2018 -0500
+
+    include pundit in the application_controller
+
+[33mcommit 26538896f2ef45b062ad8e3d1939317ad5b45e79[m
+Author: Chase Southard <chase.southard@gmail.com>
+Date:   Sat Nov 17 22:10:42 2018 -0500
+
+    adds pundit for authorization
+
+[33mcommit b56c28c9140caa1c80daf0e3a481cab8faeeb8ed[m
+Author: Chase Southard <chase.southard@gmail.com>
+Date:   Sat Nov 17 23:47:07 2018 -0500
+
+    update readme
+
+[33mcommit c337ef5452f2e3d13363c54c441886d73933a210[m
+Author: Chase Southard <chase.southard@gmail.com>
+Date:   Sat Nov 17 23:41:39 2018 -0500
+
+    update seeds to match what's in diaperbase readme
+
+[33mcommit 1ea7e2e0b504f6526812eb5a575eae2198b902a7[m
+Merge: f5c636d 846c41a
+Author: Sean Marcia <smarcia@gmail.com>
+Date:   Sat Nov 17 16:42:56 2018 -0500
+
+    Merge pull request #42 from josisusan/small-refactor
+    
+    Refactor on model and services
+
+[33mcommit 846c41a2ed410ef5a4a3222f6fc71d1d57c8d162[m
+Author: josisusan <josisusan@gmail.com>
+Date:   Thu Nov 15 08:47:29 2018 +0545
+
+    Refactor: Use DRY principle.
+
+[33mcommit 5e70b3bc43e8847bfa3681eb184d199eba54155f[m
+Author: josisusan <josisusan@gmail.com>
+Date:   Thu Nov 15 08:45:01 2018 +0545
+
+    Method refactor for formatted_item_hash.
+    
+    - Use each_with_object method for cleaner approach.
+    - Add spec for the method.
+
+[33mcommit 9a7f716e4c77dc126adf74f077ade20927764ddf[m
+Author: josisusan <josisusan@gmail.com>
+Date:   Thu Nov 15 08:41:48 2018 +0545
+
+    Add spec to Item model.
+
+[33mcommit f5c636d80d39af96e3c3a5aea66c94faaaeeb4e0[m
+Author: Sean Marcia <smarcia@gmail.com>
+Date:   Fri Nov 2 21:58:14 2018 -0400
+
+    Mailer
+
+[33mcommit dee1b8ed12d92547fe8400180404a6bc4768f5c2[m
+Author: Sean Marcia <smarcia@gmail.com>
+Date:   Fri Nov 2 21:17:17 2018 -0400
+
+    Devise views
+
+[33mcommit 6062093cb0ee344464994bf38a98ffe3578b6c86[m
+Author: Sean Marcia <smarcia@gmail.com>
+Date:   Fri Nov 2 09:34:32 2018 -0400
+
+    tests
+
+[33mcommit 4f03159040d91bbe77abbcc57f3ff6208bbb3d63[m
+Author: Sean Marcia <smarcia@gmail.com>
+Date:   Fri Nov 2 09:29:02 2018 -0400
+
+    Bootstrap theme
+
+[33mcommit a4714d682dc2d7d44117eb638d5ba7827c3710c2[m
+Author: Sean Marcia <smarcia@gmail.com>
+Date:   Fri Nov 2 00:00:30 2018 -0400
+
+    Test fix
+
+[33mcommit 0f888fbf13e40e0e7f67e95009c46c9ee10fda7b[m
+Author: Sean Marcia <smarcia@gmail.com>
+Date:   Thu Nov 1 23:58:31 2018 -0400
+
+    Rubocop and some basic formatting fixes.
+
+[33mcommit 5bce0f05d0c68e835eed4083199fcaafc83c4c60[m
+Merge: bf5c100 d59b5d0
+Author: Sean Marcia <smarcia@gmail.com>
+Date:   Thu Nov 1 22:12:37 2018 -0400
+
+    Merge branch 'master' of github.com:rubyforgood/partner
+
+[33mcommit bf5c10086106abd335ff616f0cace1e0d219d8e1[m
+Author: Sean Marcia <smarcia@gmail.com>
+Date:   Thu Nov 1 22:12:28 2018 -0400
+
+    Partner fix
+
+[33mcommit d59b5d0edce43fc4ba12a0525c004b57578e1c73[m
+Merge: 610795f 2fcb029
+Author: Sean Marcia <smarcia@gmail.com>
+Date:   Thu Nov 1 21:30:21 2018 -0400
+
+    Merge pull request #39 from tmr08c/partners-api-post-tests
+    
+    Adds request specs for the Partners API endpoint.
+
+[33mcommit 610795fe58553e0f4e70b152ac877c29307aee02[m
+Merge: cb342dc 3165a9c
+Author: Sean Marcia <smarcia@gmail.com>
+Date:   Thu Nov 1 21:29:15 2018 -0400
+
+    Merge pull request #40 from separatio/patch-2
+    
+    Refine tests for quantity
+
+[33mcommit cb342dceedb5f8e51c58845d690276b8a0aa0877[m
+Merge: 5858bfc 844aa3c
+Author: Sean Marcia <smarcia@gmail.com>
+Date:   Thu Nov 1 08:24:27 2018 -0400
+
+    Merge pull request #41 from rubyforgood/27_add_partner_info_on_show_view
+    
+    27 add partner info on show view
+
+[33mcommit 844aa3cd063b672362256b4d8140a6a03d9cc969[m[33m ([m[1;31morigin/27_add_partner_info_on_show_view[m[33m)[m
+Author: Chase Southard <chase.southard@gmail.com>
+Date:   Wed Oct 31 23:29:21 2018 -0400
+
+    adds card divs for better styling
+
+[33mcommit fc6f25ee533fbdfdddba877c217a52419b1c6837[m
+Author: Chase Southard <chase.southard@gmail.com>
+Date:   Wed Oct 31 22:52:48 2018 -0400
+
+    we don't need this one
+
+[33mcommit 6d715c2dedfecffec536625e12554d3a2a0c260d[m
+Author: Chase Southard <chase.southard@gmail.com>
+Date:   Wed Oct 31 22:52:01 2018 -0400
+
+    dang. missed another `@`. thankfully we have tests
+
+[33mcommit 9f8f17d6cd7c26e5b41595d76b6072db199548f7[m
+Author: Chase Southard <chase.southard@gmail.com>
+Date:   Wed Oct 31 22:46:00 2018 -0400
+
+    ack! missed a `@`
+
+[33mcommit 2232474686bb9e204062abb09a575bedfefe34b4[m
+Author: Chase Southard <chase.southard@gmail.com>
+Date:   Wed Oct 31 22:41:24 2018 -0400
+
+    adds helper spec for humanize_boolean
+
+[33mcommit 5b72f164af0d6891379570eaab5df97019887ac2[m
+Author: Chase Southard <chase.southard@gmail.com>
+Date:   Wed Oct 31 22:23:01 2018 -0400
+
+    add humanize_booleanadd humanize_booleanadd humanize_booleanadd
+    humanize_booleanadd humanize_booleanadd humanize_booleanadd
+    humanize_booleanadd humanize_booleanadd humanize_boolean
+
+[33mcommit f13a0646496e4d26ca5c4a57171d60ef15f612ee[m
+Author: Chase Southard <chase.southard@gmail.com>
+Date:   Wed Oct 31 22:11:23 2018 -0400
+
+    ok. list out partner data in def lists
+
+[33mcommit 5858bfcc53c631f6fbdcd8f700c525405a2ad703[m
+Author: Sean Marcia <smarcia@gmail.com>
+Date:   Wed Oct 31 17:37:23 2018 -0400
+
+    Azure fix
+
+[33mcommit 3165a9cb5b82b2975754d1ee7ee557d8874c0672[m
+Author: Alex Radulescu <alex.r_91@yahoo.com>
+Date:   Wed Oct 31 23:04:07 2018 +0200
+
+    Refine tests for quantity
+
+[33mcommit 2fcb029e237b6d37370414afcb2bdd65a455f296[m
+Author: tmr08c <tmr08c@gmail.com>
+Date:   Tue Oct 30 21:42:52 2018 -0400
+
+    Adds request specs for the Partners API endpoint.
+    
+    Adds specs for testing the POST/create action of `Api::V1::PartnersController`.
+    
+    Tests:
+    
+    - Making a request with an empty body
+    - Make requests with a valid body
+
+[33mcommit c603f8af6d9040be70cc92dc8ee8c9e1887753d5[m
+Merge: 4eea209 b4090a8
+Author: Sean Marcia <smarcia@gmail.com>
+Date:   Tue Oct 30 21:32:49 2018 -0400
+
+    Merge pull request #38 from tmr08c/standardize-html-title
+    
+    Standardized page title value.
+
+[33mcommit b4090a8553d2a5b13dee37e74fe0034a674744e6[m
+Merge: 9679d28 4eea209
+Author: Sean Marcia <smarcia@gmail.com>
+Date:   Tue Oct 30 21:32:39 2018 -0400
+
+    Merge branch 'master' into standardize-html-title
+
+[33mcommit 4eea2098a3ff072120a48c61eb2f3190e9e6e4e7[m
+Merge: 0fcff26 091a4e3
+Author: Sean Marcia <smarcia@gmail.com>
+Date:   Tue Oct 30 21:28:59 2018 -0400
+
+    Merge pull request #36 from tmr08c/update-diaper-bank-client-prod-check
+    
+    Updates environment check in `DiaperBankClient`.
+
+[33mcommit 0fcff26d39d711a817df4e64936362ab705dd663[m
+Author: Chase Southard <chase.southard@gmail.com>
+Date:   Tue Oct 30 21:28:22 2018 -0400
+
+    approved partners can make requests (#33)
+    
+    * list of items as a constant hash
+    
+    * adds partner requests
+    
+    * show submit for approval if approved
+    
+    * adds items that belong to partner requests
+    
+    * remove partners.coffee; adds partner_requests
+    
+    * somehow missed this one
+    
+    * text area not text field
+    
+    * requests belong to partners
+    
+    * not the best receipt UI but functional
+    
+    * get all of the tests to run and pass
+    
+    * probably should have some sent state for requests
+    
+    * some validations on items
+    
+    * quantity should be done in whole step, min 1
+    
+    * use the correct button text; add cancel
+    
+    * adding serializer via blueprinter
+    
+    i'm not sure if this is the best way to go yet
+    
+    * remove create view.
+    
+    * show errors on the thanks page
+    
+    the controller might add an error to if we fail to send the request
+    
+    * adds a request submission post
+    
+    first pass at this
+    
+    * update state if request sent or add to errors hash
+    
+    * actually use dotenv
+    
+    * run migrations after rebase
+    
+    * status verified
+    
+    * clean up partner show page
+    
+    * more partner show cleanup
+    
+    * sign out uses the delete method
+    
+    * sent got lost in the shuffle
+    
+    * adds tests for verified?
+    
+    * forgot the null false and default false for sent
+    
+    * update validations for partner_request and item
+    
+    * update factories
+    
+    * add some tests even if prefunctory
+    
+    * remove blueprinter in favor of export_json method
+    
+    * missed an n in partner
+    
+    * ack! remove last remnants of blueprinter
+    
+    * swap thanks for show; use the given conventions
+    
+    * adds a pending? method; conditionally disable approval btn
+    
+    * adds an index view of partner requests
+    
+    * you don’t have to pass partner here.
+    
+    * clean up show and index partner_request views
+    
+    * use the same button language everywhere
+    
+    * don't allow partner to edit their own status
+    
+    * don't allow partner to edit their own status
+
+[33mcommit 9679d282c859394a91ce1fd2e2dabb4b7278f788[m
+Author: tmr08c <tmr08c@gmail.com>
+Date:   Tue Oct 30 20:21:35 2018 -0400
+
+    Standardized page title value.
+    
+    Updates the `<title>` tag for `static#index` and the application layout to match
+    branding elsewhere in the app ("Partner Base").
+
+[33mcommit 091a4e3694cf91bd1b2aa79a98b8fac5ff984b84[m
+Author: tmr08c <tmr08c@gmail.com>
+Date:   Tue Oct 30 17:30:24 2018 -0400
+
+    Updates environment check in `DiaperBankClient`.
+    
+    Updates the check for whether or not we are in production in
+    `DiaperBankClient.post` to use the `#production?` helper instead of checking the
+    string `"production"`.
+
+[33mcommit eef10908af656a4f19e3eafae7ecb56225ff5da8[m
+Merge: 93414b4 53734df
+Author: Sean Marcia <smarcia@gmail.com>
+Date:   Sun Oct 28 16:31:27 2018 -0400
+
+    Merge pull request #26 from chaserx/create_seeds_for_partner
+    
+    adds a couple of partners in seeds, approved and pending
+
+[33mcommit 53734dfc02d2d61e9bbfac201c981d4b32c72080[m
+Author: Sean Marcia <smarcia@gmail.com>
+Date:   Sun Oct 28 16:26:51 2018 -0400
+
+    Update seeds.rb
+
+[33mcommit 93414b4accfee7d9354f2e8d8a3d30f6f546e52a[m
+Merge: f77470c 29fa42e
+Author: Sean Marcia <smarcia@gmail.com>
+Date:   Sun Oct 28 16:26:24 2018 -0400
+
+    Merge pull request #25 from chaserx/add_dotenv_to_gitignore
+    
+    Adds .env to gitignore; Updates README.md accordingly.
+
+[33mcommit f77470cb55da095f0045bb4a4a3667b8fdf66621[m
+Author: Sean Marcia <smarcia@gmail.com>
+Date:   Sun Oct 28 16:01:20 2018 -0400
+
+    Basic bootstrap layout
+
+[33mcommit 9fbb50641cc875e12fbc1c1268561bdd96b11df7[m
+Merge: 1174e6b 8190723
+Author: Sean Marcia <smarcia@gmail.com>
+Date:   Sun Oct 28 15:10:52 2018 -0400
+
+    Merge pull request #24 from marcelkooi/7-add-registration-form
+    
+    Add registration form
+
+[33mcommit 57b9c3ec3e6cab95014b5ae4cc43904dc686774a[m
+Author: Chase Southard <chase.southard@gmail.com>
+Date:   Sat Oct 27 15:29:04 2018 -0400
+
+    adds a couple of partners approved and pending
+
+[33mcommit 81907238e6fa9c3cd51e5afdaa2fd1b40f1b35fe[m
+Author: Marcel Kooi <1marcelkooi@gmail.com>
+Date:   Sat Oct 27 15:01:01 2018 -0400
+
+    Add tests for uploading
+
+[33mcommit 997780f20fff11bd94bb4c8b65f5f4d6db2fe30d[m
+Author: Marcel Kooi <1marcelkooi@gmail.com>
+Date:   Sat Oct 27 14:52:21 2018 -0400
+
+    Add ActiveStorage and styling
+
+[33mcommit 29fa42e312e064dd58d138cf475bf36381c3da76[m
+Author: Chase Southard <chase.southard@gmail.com>
+Date:   Sat Oct 27 12:00:22 2018 -0400
+
+    copies over some setup docs from diaper
+
+[33mcommit 8b2633e107468868111d8298dcdbba1dc2b3566d[m
+Author: Chase Southard <chase.southard@gmail.com>
+Date:   Sat Oct 27 11:55:22 2018 -0400
+
+    adds .env to .gitignore
+
+[33mcommit 72b5a9e2f14550c976063563844c853eabf86385[m
+Author: Marcel Kooi <1marcelkooi@gmail.com>
+Date:   Fri Oct 26 16:51:14 2018 -0400
+
+    Add specs for filling out registration form
+
+[33mcommit 44d7d298c20e4818489404c0a557f6f32f4e4e9d[m
+Author: Marcel Kooi <1marcelkooi@gmail.com>
+Date:   Wed Oct 24 09:03:20 2018 -0400
+
+    Fix attribute names to match db columns
+
+[33mcommit 1a43dacea64f77d290c2a9431dce73160042851b[m
+Author: Marcel Kooi <1marcelkooi@gmail.com>
+Date:   Tue Oct 23 22:20:14 2018 -0400
+
+    Modified form to include correct field name and type
+
+[33mcommit 85f148ca40415ab78832af00fb7f76d3d228a610[m
+Author: Marcel Kooi <1marcelkooi@gmail.com>
+Date:   Tue Oct 23 21:28:24 2018 -0400
+
+    Add all fields
+
+[33mcommit 1174e6bf51f9489e9b9b311725474384738289c7[m
+Author: Sean Marcia <smarcia@gmail.com>
+Date:   Mon Oct 22 21:08:50 2018 -0400
+
+    Finish partnerbase spike
+
+[33mcommit aa68d3d2402607efc8d7bef37312b39ab1ccfc82[m
+Author: Sean Marcia <smarcia@gmail.com>
+Date:   Mon Oct 22 20:54:56 2018 -0400
+
+    Mail options
+
+[33mcommit 2b5db19ee99f8100c70b13cbcf445a5e42581821[m
+Author: Sean Marcia <smarcia@gmail.com>
+Date:   Mon Oct 22 20:39:46 2018 -0400
+
+    Spiking
+
+[33mcommit 3125f060d80d74b08d0331be6efe28530b746145[m
+Author: Sean Marcia <smarcia@gmail.com>
+Date:   Mon Oct 22 20:37:30 2018 -0400
+
+    Spiking
+
+[33mcommit 590a81bee31bec31086b8801541ecf48f4da08e4[m
+Merge: 1752863 f087a12
+Author: Sean Marcia <smarcia@gmail.com>
+Date:   Mon Oct 22 17:50:09 2018 -0400
+
+    Merge pull request #23 from rubyforgood/integration_spike
+    
+    More feature spiking for national conf
+
+[33mcommit f087a12aab3cbb0c8e23eaefa0b924d3d47bddf8[m[33m ([m[1;31morigin/integration_spike[m[33m)[m
+Author: Sean Marcia <smarcia@gmail.com>
+Date:   Mon Oct 22 17:49:27 2018 -0400
+
+    More feature spiking for national conf
+
+[33mcommit 175286347c8337b4de56587babce643b84994e9e[m
+Author: Sean Marcia <smarcia@gmail.com>
+Date:   Mon Oct 22 17:41:15 2018 -0400
+
+    Update static_controller.rb
+
+[33mcommit a14fa5292a2ec7bb06f4d0b21efa6f03acbbea8c[m
+Merge: 26a358a 3fc3c56
+Author: Sean Marcia <smarcia@gmail.com>
+Date:   Sun Oct 21 17:35:17 2018 -0400
+
+    Merge pull request #22 from cflipse/api
+    
+    render a nested partner structure
+
+[33mcommit 3fc3c56bb41b27c5008a183c4be75167630fcc92[m
+Author: Chris Flipse <cflipse@digitalocean.com>
+Date:   Sat Oct 20 18:41:50 2018 -0400
+
+    render a nested partner structure
+    
+    ref #9
+
+[33mcommit 26a358a604ba148a81807e0072bf0ed79ec8f9e5[m
+Author: Sean Marcia <smarcia@gmail.com>
+Date:   Sat Oct 20 13:45:16 2018 -0400
+
+    Update
+
+[33mcommit cd25fbd94e303a5233d9da3a74b8f381b410d9c6[m
+Author: Sean Marcia <smarcia@gmail.com>
+Date:   Sat Oct 20 13:41:18 2018 -0400
+
+    require api-key for partner creation.
+
+[33mcommit 19124870055bc4016866d56f797a2c57293f68a1[m
+Author: Sean Marcia <smarcia@gmail.com>
+Date:   Sat Oct 20 13:38:54 2018 -0400
+
+    require api-key for partner creation.
+
+[33mcommit 7d4a85b774f9298e57e6653478e069f05c4acf4b[m
+Author: Sean Marcia <smarcia@gmail.com>
+Date:   Sat Oct 20 13:23:31 2018 -0400
+
+    require api-key for partner creation.
+
+[33mcommit 5f29cf4cc6e9ebfe5986fec392cf8d515bc88881[m
+Author: Sean Marcia <smarcia@gmail.com>
+Date:   Thu Oct 11 14:43:40 2018 -0700
+
+    First pass at putting in partnerbase landing page.
+
+[33mcommit 942beb3c09f00ea44c166a937fa3e630e8b47259[m
+Author: davidshr10 <1936038+davidshr10@users.noreply.github.com>
+Date:   Mon Oct 8 19:41:45 2018 -0400
+
+    Allow users to follow email link and register in the app
+
+[33mcommit 8cbfd226be839444598dc924ee5e184b96bd90c5[m
+Author: davidshr10 <1936038+davidshr10@users.noreply.github.com>
+Date:   Thu Oct 4 21:57:46 2018 -0400
+
+    Create a partner when a POST request is received at /api/v1/partners
+
+[33mcommit 309974a557f3364b282e04f7ae97436a10600b5d[m
+Author: davidshr10 <1936038+davidshr10@users.noreply.github.com>
+Date:   Tue Oct 2 23:25:41 2018 -0400
+
+    Setup user registration api
+
+[33mcommit 749c2c929303a74c5d67c366f09e128463fb6dda[m
+Author: Sean Marcia <smarcia@gmail.com>
+Date:   Sun Oct 7 15:31:32 2018 -0400
+
+    testing
+
+[33mcommit 8f7669047848e9c0fe0117fe8086adb551a37177[m
+Author: Sean Marcia <smarcia@gmail.com>
+Date:   Sun Oct 7 15:18:54 2018 -0400
+
+    Final piece for travis deploy
+
+[33mcommit 4ba0c1786717154d9e6702a94d394d813bdbb9ae[m
+Author: Sean Marcia <smarcia@gmail.com>
+Date:   Sun Oct 7 15:10:58 2018 -0400
+
+    Final piece for travis deploy
+
+[33mcommit ea4f94c12bd6064598c8b776c50551e88db97ed1[m
+Author: Sean Marcia <smarcia@gmail.com>
+Date:   Sun Oct 7 15:06:54 2018 -0400
+
+    Test of the serve
+
+[33mcommit 1c14e651c80dcedb9d6f4200391376cbda9eb15c[m
+Author: Sean Marcia <smarcia@gmail.com>
+Date:   Sun Oct 7 14:45:49 2018 -0400
+
+    Setting up new server
+
+[33mcommit d8a2d143a42169c8d093cfc5bb1a9dfa76ae2d81[m
+Author: Sean Marcia <smarcia@gmail.com>
+Date:   Sun Oct 7 14:44:53 2018 -0400
+
+    Setting up new server
+
+[33mcommit 99c44e52bf6c825ea457c983e7593004ed79f820[m
+Author: Sean Marcia <smarcia@gmail.com>
+Date:   Sun Oct 7 14:40:15 2018 -0400
+
+    Setting up new server
+
+[33mcommit 40e5e15b65f9d1e73f4647dd25607ce943ae22ea[m
+Author: Sean Marcia <smarcia@gmail.com>
+Date:   Sun Oct 7 14:38:13 2018 -0400
+
+    Setting up new server
+
+[33mcommit 01383c6db95d25f804868836e1c14a580ad85d19[m
+Author: Sean Marcia <smarcia@gmail.com>
+Date:   Sun Oct 7 14:37:25 2018 -0400
+
+    Setting up new server
+
+[33mcommit 6c57c0dcde73b465bf56a0cf40e28851b1752dec[m
+Merge: 706e49a ee8847a
+Author: Sean Marcia <smarcia@gmail.com>
+Date:   Sat Oct 6 23:49:06 2018 -0400
+
+    Merge branch 'master' of github.com:rubyforgood/partner
+
+[33mcommit ee8847a77d98db13ce49ed25fa276da97702d71c[m
+Merge: 82de506 f92b221
+Author: Sean Marcia <smarcia@gmail.com>
+Date:   Sat Oct 6 16:12:51 2018 -0400
+
+    Merge pull request #20 from rubyforgood/setup-travis
+    
+    Setup travis ci
+
+[33mcommit f92b2212ce3a6c1473f1a9ebb4d08a3c78bf9761[m
+Author: Sean Marcia <smarcia@gmail.com>
+Date:   Sat Oct 6 16:07:50 2018 -0400
+
+    Update .travis.yml
+
+[33mcommit 5a0c8ddbe03a1d108ff25b78df32d41154983480[m
+Author: davidshr10 <1936038+davidshr10@users.noreply.github.com>
+Date:   Thu Oct 4 22:23:38 2018 -0400
+
+    Setup travis ci
+
+[33mcommit 82de50607a06c089956f734bc134aa2b553fe675[m
+Author: davidshr10 <1936038+davidshr10@users.noreply.github.com>
+Date:   Thu Oct 4 22:10:02 2018 -0400
+
+    Add build status in README
+
+[33mcommit 663c043d2b776555b858e5a5bebafdbf41d77af5[m
+Author: davidshr10 <1936038+davidshr10@users.noreply.github.com>
+Date:   Thu Oct 4 22:10:02 2018 -0400
+
+    Add build status in README
+
+[33mcommit c9ee68fffaa22d93fc5702c1be32f9c57a45b893[m
+Author: David S <1936038+davidshr10@users.noreply.github.com>
+Date:   Thu Oct 4 19:16:36 2018 -0400
+
+    Created a pull request template
+
+[33mcommit b1e9cb09d12840057e1e49d9b43d300e48ff87f5[m
+Author: vntheeb <cuongnm265@gmail.com>
+Date:   Thu Oct 4 02:02:49 2018 +0700
+
+    Add bootstrap 4
+
+[33mcommit 9e6a2c730b660fca5885986d61612761532ad31a[m
+Author: davidshr10 <1936038+davidshr10@users.noreply.github.com>
+Date:   Wed Oct 3 19:15:31 2018 -0400
+
+    Adding FactoryBot to the project with a test example
+    
+    Resolves #12
+
+[33mcommit 51e68500fd84b30c0cb432b003807f25ed0fd786[m
+Merge: 978ed83 6b76a49
+Author: Sean Marcia <smarcia@gmail.com>
+Date:   Mon Oct 1 21:19:58 2018 -0400
+
+    Merge pull request #4 from rubyforgood/rspec-setup
+    
+    Setup rspec
+
+[33mcommit 706e49a464a761b51de23a276bb32b731a0fa485[m
+Author: Sean Marcia <smarcia@gmail.com>
+Date:   Mon Oct 1 21:17:24 2018 -0400
+
+    lets encrypt
+
+[33mcommit 978ed830d6f01013d64e3e8d2b5e30b9fa1aee6d[m
+Merge: e97927e 9eec520
+Author: David S <1936038+davidshr10@users.noreply.github.com>
+Date:   Mon Oct 1 21:12:22 2018 -0400
+
+    Merge pull request #3 from rubyforgood/add_documents
+    
+    documentation and readme.
+
+[33mcommit 6b76a49df6719e3b94d4346713ccac5bde0a50ca[m
+Author: davidshr10 <1936038+davidshr10@users.noreply.github.com>
+Date:   Mon Oct 1 21:09:13 2018 -0400
+
+    Setup rspec
+
+[33mcommit e97927e61a1f80aebcdd507c85de3dba216b9080[m
+Author: Sean Marcia <smarcia@gmail.com>
+Date:   Mon Oct 1 21:06:29 2018 -0400
+
+    lets encrypt
+
+[33mcommit 9eec5206d950264e59d115a2af22ebf2b6d498bf[m
+Author: Sean Marcia <smarcia@gmail.com>
+Date:   Mon Oct 1 19:34:42 2018 -0400
+
+    documentation and readme.
+
+[33mcommit d4c9b26efcdd51328e0c8fb2c438a5f172e1d202[m
+Merge: fc18d65 99577a8
+Author: David S <1936038+davidshr10@users.noreply.github.com>
+Date:   Wed Sep 19 23:53:43 2018 -0400
+
+    Merge pull request #2 from davidshr10/master
+    
+    Cleanup Gemfile with rubocop
+
+[33mcommit 99577a87e87976bd85de8a43d005a783b0fa67eb[m
+Author: davidshr10 <1936038+davidshr10@users.noreply.github.com>
+Date:   Wed Sep 19 23:41:52 2018 -0400
+
+    Cleanup Gemfile with rubocop
+    
+    1. Updated vulnerable gem rubyzip
+    2. Cleaned up rubocop rules
+
+[33mcommit fc18d654e8bff9f2c1a87be73f76c2897b0249bf[m
+Merge: 22eaeb7 8d28833
+Author: David S <1936038+davidshr10@users.noreply.github.com>
+Date:   Wed Sep 19 23:00:48 2018 -0400
+
+    Merge pull request #1 from davidshr10/master
+    
+    Setup postgres and rubocop
+
+[33mcommit 8d288330b869584732beb4662a076ce70caa81f6[m
+Author: davidshr10 <1936038+davidshr10@users.noreply.github.com>
+Date:   Sat Sep 15 15:58:29 2018 -0400
+
+    Setup rubocop with the same rules as the diaper app
+
+[33mcommit 01141ed151545d88fb3c6869fa76b993daf03926[m
+Author: davidshr10 <1936038+davidshr10@users.noreply.github.com>
+Date:   Sat Sep 15 15:48:40 2018 -0400
+
+    Setting up postgres for dev, test and prod
+
+[33mcommit 22eaeb7e4b4f79c259c4a3beda4bbd464ea50b0d[m
+Author: Sean Marcia <smarcia@gmail.com>
+Date:   Sat Aug 11 21:52:23 2018 -0400
+
+    asdf
+
+[33mcommit 2aa7532d8ff6e3635bb88fdc60e7a723804acade[m
+Author: Sean Marcia <smarcia@gmail.com>
+Date:   Sat Aug 11 20:45:04 2018 -0400
+
+    Update
+
+[33mcommit 04af9dd7768e7516fb9a311673cea28ff92f286a[m
+Author: Sean Marcia <smarcia@gmail.com>
+Date:   Sat Aug 11 20:43:28 2018 -0400
+
+    update
+
+[33mcommit 79856c174e91f7c25b788cc542f4d34b71839b60[m
+Author: Sean Marcia <smarcia@gmail.com>
+Date:   Sat Aug 11 20:42:55 2018 -0400
+
+    first
+
+[33mcommit fa0826e81fa0aa1157fba7aa603246883b4c00f1[m
+Author: Sean Marcia <smarcia@gmail.com>
+Date:   Sat Aug 11 20:39:00 2018 -0400
+
+    test

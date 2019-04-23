@@ -1,9 +1,9 @@
 Rails.application.routes.draw do
-  devise_for :partners, controllers: { sessions: "partners/sessions" }
-  devise_scope :partner do # , :skip => [:registrations] # do we need this?
-    get "/partners/:id/sign_out" => "devise/sessions#destroy"
-    get "/partners/:id/edit" => "devise/registrations#edit", :as => "edit_partner_registration"
-    put "/partners/:id" => "devise/registrations#update", :as => "partner_registration"
+  devise_for :partners, controllers: { sessions: "partners/sessions", registrations: "partners/registrations" }, skip: [:registrations]
+  devise_scope :partner do # ,  :skip => [:registrations] # do we need this?
+    get "/partners/sign_out" => "devise/sessions#destroy"
+    get "partners/edit" => "devise/registrations#edit", :as => "edit_partner_registration"
+    put "partners" => "devise/registrations#update", :as => "partner_registration"
   end
 
   resources :partners do
