@@ -6,7 +6,7 @@ class PartnerRequest < ApplicationRecord
   validates :items, presence: true, if: proc { |a| a.comments.blank? }
 
   validates :partner, presence: true
-
+  validates_associated :items
   def export_json
     {
       request: {
