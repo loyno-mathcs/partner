@@ -12,6 +12,31 @@ RSpec.describe PartnerRequest, type: :model do
     end
   end
 
+  describe "a partner must contain" do
+    it "proof of form 990" do
+      partner_stubbed = build(:partner, :with_990_attached)
+      partner_no_990_stubbed = build(:partner)
+      expect(build_stubbed(:partner_request, partner: partner_stubbed).partner.export_json.dig(:stability, :form_990_link)).to include("f990.pdf")
+      expect(build_stubbed(:partner_request, partner: partner_no_990_stubbed).partner.save).to be false
+    end
+
+    it "proof_of_agency_status" do
+      partner_stubbed = build(:partner, :with_status_proof)
+      partner_no_status_stubbed = build(:partner)
+      expect(build_stubbed(:partner_request, partner: partner_stubbed).partner.export_json[:proof_of_agency_status]).to include("status_proof.pdf")
+      expect(build_stubbed(:partner_request, partner: partner_no_status_stubbed).partner.export_json[:proof_of_agency_status]).to eq("")
+    end
+
+    it "one or more additional documents" do
+      partner_stubbed = build(:partner, :with_other_documents)
+      partner_no_documents_stubbed = build(:partner)
+      expect(build_stubbed(:partner_request, partner: partner_stubbed).partner.export_json[:documents]).to be_a Array
+      expect(build_stubbed(:partner_request, partner: partner_stubbed).partner.export_json[:documents]).not_to be_empty
+      expect(build_stubbed(:partner_request, partner: partner_stubbed).partner.export_json[:documents].first).to have_key(:document_link)
+      expect(build_stubbed(:partner_request, partner: partner_no_documents_stubbed).partner.export_json[:documents]).to be_empty
+    end
+  end
+
   describe "#formatted_items_hash" do
     let(:partner_request) { create(:partner_request_with_items, items_count: 1) }
     it "builds the item hash values for export json" do
